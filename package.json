@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-zip-version",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "vue-cli 3 plugin to add vue-cli-plugin-zip-version",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/youpenglai/vue-cli-plugin-zip-version/issues"
   },
-  "homepage": "https://github.com/youpenglai/vue-cli-plugin-zip-version#readme"
+  "homepage": "https://github.com/youpenglai/vue-cli-plugin-zip-version#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
 }

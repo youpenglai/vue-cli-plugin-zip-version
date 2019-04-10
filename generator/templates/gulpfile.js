@@ -5,8 +5,6 @@ const bump = require('gulp-bump');
 const semver = require('semver');
 const git = require('gulp-git');
 
-const prefix = 'photo-up-front';
-
 const getPackageJson = function () {
   return JSON.parse(fs.readFileSync('./package.json', 'utf8'));
 };
@@ -19,8 +17,8 @@ function _package(type) {
     .pipe(gulp.dest('./'));
 
   // 根据新的版本号打包文件
-  return gulp.src(['./**/**', '!./node_modules/**/**', '!./idea/**/**', '!./release/**/**'])
-    .pipe(zip(prefix + '.' + newVer + '.zip'))
+  return gulp.src(['./dist/**'])
+    .pipe(zip(pkg.name + '.' + newVer + '.zip'))
     .pipe(gulp.dest('release/' + new Date().getTime()));
 }
 
@@ -56,8 +54,3 @@ gulp.task('tag', () => {
     console.log(err);
   });
 });
-
-gulp.task('default', () => {
-  gulp.run('packagePatchVersion');
-});
-
