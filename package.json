@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-zip-version",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "vue-cli 3 plugin to add vue-cli-plugin-zip-version",
   "main": "index.js",
   "scripts": {
