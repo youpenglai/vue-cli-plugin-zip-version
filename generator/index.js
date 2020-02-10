@@ -20,6 +20,8 @@ module.exports = (api, opts, rootOptions) => {
       'zip-version-minor':  'gulp packageMinorVersion',
       'zip-version-patch':  'gulp packagePatchVersion',
       'zip-version-prerelease':  'gulp packagePrereleaseVersion',
+      "prev": "npm install && npm run build && pm2 startOrRestart start.config.js --env prev",
+      "production": "npm install && npm run build && pm2 startOrRestart start.config.js --env production"
     }
   });
 
