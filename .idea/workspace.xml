@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af069dfa-ccc6-45c3-a31c-0dd9a318c798" name="Default" comment="">
+    <list default="true" id="af069dfa-ccc6-45c3-a31c-0dd9a318c798" name="Default" comment="更新构建指令">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/generator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +14,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1XbCmzempDtVdvNcMm14GWjAj95" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,8 +21,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app-demo/app-3d-sign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -65,12 +61,44 @@
       <option name="presentableId" value="Default" />
       <updated>1554703349548</updated>
       <workItem from="1554703350897" duration="13755000" />
-      <workItem from="1581305571966" duration="57000" />
+      <workItem from="1581305571966" duration="286000" />
+      <workItem from="1581307387803" duration="1234000" />
+      <workItem from="1581383102630" duration="477000" />
+      <workItem from="1582860855479" duration="65000" />
     </task>
+    <task id="LOCAL-00001" summary="更新构建指令">
+      <created>1581308171810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581308171810</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新构建指令">
+      <created>1581308456304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581308456304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新构建指令" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新构建指令" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="271" y="64" key="CommitChangelistDialog2" timestamp="1581308483789">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="271" y="64" key="CommitChangelistDialog2/0.23.1440.877/-992.-1057.1920.1057@0.23.1440.877" timestamp="1581308483789" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1581308462194">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877/-992.-1057.1920.1057@0.23.1440.877" timestamp="1581308462194" />
   </component>
   <component name="masterDetails">
     <states>

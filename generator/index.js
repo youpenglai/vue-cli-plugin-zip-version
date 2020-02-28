@@ -16,10 +16,10 @@ module.exports = (api, opts, rootOptions) => {
 
   api.extendPackage({
     scripts: {
-      'zip-version-major':  'gulp packageMajorVersion',
-      'zip-version-minor':  'gulp packageMinorVersion',
-      'zip-version-patch':  'gulp packagePatchVersion',
-      'zip-version-prerelease':  'gulp packagePrereleaseVersion',
+      'zip-version-major':  'npm run build && gulp packageMajorVersion',
+      'zip-version-minor':  'npm run build && gulp packageMinorVersion',
+      'zip-version-patch':  'npm run build && gulp packagePatchVersion',
+      'zip-version-prerelease':  'npm run build && gulp packagePrereleaseVersion',
       "prev": "npm install && npm run build && pm2 startOrRestart start.config.js --env prev",
       "production": "npm install && npm run build && pm2 startOrRestart start.config.js --env production"
     }
