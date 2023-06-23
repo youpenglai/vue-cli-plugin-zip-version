@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/youpenglai/vue-cli-plugin-zip-version#readme",
   "dependencies": {
-    "cross-spawn": "^6.0.5"
+    "cross-spawn": "^7.0.3"
   }
 }
